@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-bg{
+  /* background: #132444; */
+  background: #FDFAF7;
+}
+
+/* Playlist */
+.playlist-wrapper {
+  width: 100vw;
+  height: 99vh;
+  flex-direction: row;
+  color: #FDFAF7;
+  border-radius: 1%;
+}
+
+.playlist-wrapper h2 {
+  text-align: center;
+  padding: 3rem 0 0 3rem;
+  margin: 0;
+  color: #132444;
+}
+
+.playlist-img {
+  height: 10rem;
+  width: 10rem;
+  margin: 1.5%;
+  border-radius: 50%;
+  transition: top ease 0.5s;
+  top: 0;
+  position: relative;
+}
+
+/* on hover playlist animation */
+.playlist-img:hover {
+  top: -2rem;
+  box-shadow: 0px 30px 50px 0px #CCC;
+}
+
+/* Songlist */
+
+.songlist-wrapper {
+  background: #132444;
+  color: #FDFAF7;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 1em;
+  width: 100vw;
+  border-top: 5px solid transparent;
+  border-image: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+  border-image: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-image-slice: 1;
+  /* height: 10rem; */
+}
+
+.songlist {
+  display: none;
+}
