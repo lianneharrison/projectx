@@ -6,7 +6,7 @@ export var get = (url) => {
     method: "get",
     crossDomain: true,
     headers: {
-      Authorization: "Bearer BQDcY952J1U7RERqHCGUlkMrn45aKRf54uHBzMmcXUXfKud6_DbQHebTeMRpPsg-Kxg14jDSt1I-EBrYBoLqHXAcA7xFyuvKhHiL2nOQEAmm0qG8oXv_HJODNV6DLxhzhsigGtFe9SXNloqQx6OdPuq9RGMzrXp5N0b6yMoj3nPI"
+      Authorization: "Bearer BQBQICDOJszSSB-1Z1ECc980Yj5OYFMPLYtNGgwegOY2EzEt4kbta0Tj2bTuHgv2h7PQmSEeFpPNu3r81TAlgDyiwSMZCxQ_K8RRglj2Y2q-GlJXfM3Lhn42mZzYVZWH-b18YQGAroOhn0JSMBN5Jxte0QqMDFXWUWhwr5gW1jr2"
     }
   }).toPromise()
 };

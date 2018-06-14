@@ -11,7 +11,8 @@ class Songlist extends Component {
     }
 
   componentWillReceiveProps(newProps) {
-    get(`https://api.spotify.com/v1/users/lianneharrison2010/playlists/${newProps.playlistId}/tracks`)
+    console.log(newProps);
+    get(`https://api.spotify.com/v1/users/lianneharrison2010/playlists/${newProps.playlistID}/tracks`)
       .then((data) => {
         console.log(data);
       this.setState({

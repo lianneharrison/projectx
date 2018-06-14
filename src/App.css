@@ -45,7 +45,7 @@
 .songlist-wrapper {
   background: #132444;
   color: #FDFAF7;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   height: 1em;
